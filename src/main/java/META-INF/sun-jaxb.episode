@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.06.23 a las 04:08:04 PM VET 
+
+  -->
+      
+    <bindings xmlns:tns="http://service.sefws.telefonica.com.ve/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.sefspring.wsdls"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:faultServiceBean">
+                  
+            <class ref="com.sefspring.wsdls.FaultServiceBean"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:actualizaPlantilla">
+                  
+            <class ref="com.sefspring.wsdls.ActualizaPlantilla"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:actualizaPlantillaResponse">
+                  
+            <class ref="com.sefspring.wsdls.ActualizaPlantillaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:alertasOpenEstacion">
+                  
+            <class ref="com.sefspring.wsdls.AlertasOpenEstacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:alertasOpenEstacionResponse">
+                  
+            <class ref="com.sefspring.wsdls.AlertasOpenEstacionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarAmoClass">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarAmoClass"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarAmoClassByidamoclass">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarAmoClassByidamoclass"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarAmoClassByidamoclassResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarAmoClassByidamoclassResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarAmoClassResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarAmoClassResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarEstaciones">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarEstaciones"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarEstacionesResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarEstacionesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarEstacionesbyIdEstaciones">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarEstacionesbyIdEstaciones"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarEstacionesbyIdEstacionesResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarEstacionesbyIdEstacionesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManager">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManager"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerByidmanager">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerByidmanager"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerByidmanagerResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerByidmanagerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerClass">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerClass"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerClassByidclassmanager">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerClassByidclassmanager"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerClassByidclassmanagerResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerClassByidclassmanagerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerClassResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerClassResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarManagerResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarManagerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarMercado">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarMercado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarMercadoByidMercado">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarMercadoByidMercado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarMercadoByidMercadoResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarMercadoByidMercadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarMercadoResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarMercadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarRegiones">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarRegiones"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarRegionesByidRegion">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarRegionesByidRegion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarRegionesByidRegionResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarRegionesByidRegionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultarRegionesResponse">
+                  
+            <class ref="com.sefspring.wsdls.ConsultarRegionesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:deletePlantilla">
+                  
+            <class ref="com.sefspring.wsdls.DeletePlantilla"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:deletePlantillaResponse">
+                  
+            <class ref="com.sefspring.wsdls.DeletePlantillaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ejecutarBusqueda">
+                  
+            <class ref="com.sefspring.wsdls.EjecutarBusqueda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ejecutarBusquedaResponse">
+                  
+            <class ref="com.sefspring.wsdls.EjecutarBusquedaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findParametroById">
+                  
+            <class ref="com.sefspring.wsdls.FindParametroById"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findParametroByIdResponse">
+                  
+            <class ref="com.sefspring.wsdls.FindParametroByIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findParametroByLogin">
+                  
+            <class ref="com.sefspring.wsdls.FindParametroByLogin"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findParametroByLoginResponse">
+                  
+            <class ref="com.sefspring.wsdls.FindParametroByLoginResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findPlantilla">
+                  
+            <class ref="com.sefspring.wsdls.FindPlantilla"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findPlantillaResponse">
+                  
+            <class ref="com.sefspring.wsdls.FindPlantillaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getListFile">
+                  
+            <class ref="com.sefspring.wsdls.GetListFile"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getListFileResponse">
+                  
+            <class ref="com.sefspring.wsdls.GetListFileResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:guardaPlantilla">
+                  
+            <class ref="com.sefspring.wsdls.GuardaPlantilla"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:guardaPlantillaResponse">
+                  
+            <class ref="com.sefspring.wsdls.GuardaPlantillaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:hello">
+                  
+            <class ref="com.sefspring.wsdls.Hello"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:helloResponse">
+                  
+            <class ref="com.sefspring.wsdls.HelloResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ifParametroByLoginByName">
+                  
+            <class ref="com.sefspring.wsdls.IfParametroByLoginByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ifParametroByLoginByNameResponse">
+                  
+            <class ref="com.sefspring.wsdls.IfParametroByLoginByNameResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:loadAmoView">
+                  
+            <class ref="com.sefspring.wsdls.LoadAmoView"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:loadAmoViewResponse">
+                  
+            <class ref="com.sefspring.wsdls.LoadAmoViewResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:loadPlantilla">
+                  
+            <class ref="com.sefspring.wsdls.LoadPlantilla"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:loadPlantillaResponse">
+                  
+            <class ref="com.sefspring.wsdls.LoadPlantillaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:saveBusqueda">
+                  
+            <class ref="com.sefspring.wsdls.SaveBusqueda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:saveBusquedaResponse">
+                  
+            <class ref="com.sefspring.wsdls.SaveBusquedaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:saveChangeStatus">
+                  
+            <class ref="com.sefspring.wsdls.SaveChangeStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:saveChangeStatusResponse">
+                  
+            <class ref="com.sefspring.wsdls.SaveChangeStatusResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:sefInfAlertaList">
+                  
+            <class ref="com.sefspring.wsdls.SefInfAlertaList"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:sefInfAlertaListResponse">
+                  
+            <class ref="com.sefspring.wsdls.SefInfAlertaListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:amoClassDTO">
+                  
+            <class ref="com.sefspring.wsdls.AmoClassDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:parametrosDTO">
+                  
+            <class ref="com.sefspring.wsdls.ParametrosDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:archivoDTO">
+                  
+            <class ref="com.sefspring.wsdls.ArchivoDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:managerDTO">
+                  
+            <class ref="com.sefspring.wsdls.ManagerDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:mercadosDTO">
+                  
+            <class ref="com.sefspring.wsdls.MercadosDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:managerClassDTO">
+                  
+            <class ref="com.sefspring.wsdls.ManagerClassDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:amoViewDTO">
+                  
+            <class ref="com.sefspring.wsdls.AmoViewDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:estacionesDTO">
+                  
+            <class ref="com.sefspring.wsdls.EstacionesDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:sefDetalleAlerta">
+                  
+            <class ref="com.sefspring.wsdls.SefDetalleAlerta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:sefDetalleAlertaViewDTO">
+                  
+            <class ref="com.sefspring.wsdls.SefDetalleAlertaViewDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:resultadosDTO">
+                  
+            <class ref="com.sefspring.wsdls.ResultadosDTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:regionesDTO">
+                  
+            <class ref="com.sefspring.wsdls.RegionesDTO"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
