@@ -20,9 +20,9 @@ public class SefServiceController {
 
     @GetMapping("/hello")
     public ResponseEntity<Map<String, String>> getNombre(@RequestParam String nombre) {
-
+    	
         HelloResponse addResponse = serviceHello.obtenerNombre(nombre);
-
+        
         Map<String, String> response = new HashMap<>();
         response.put("resultado", addResponse.getReturn());
         return ResponseEntity.ok().body(response);

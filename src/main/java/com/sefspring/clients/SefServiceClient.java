@@ -9,12 +9,12 @@ import com.sefspring.wsdls.Hello;
 import com.sefspring.wsdls.HelloResponse;
 import com.sefspring.wsdls.ObjectFactory;
 
-public class HelloClient extends WebServiceGatewaySupport {
+public class SefServiceClient extends WebServiceGatewaySupport {
 
-	public HelloResponse getHello(String country) {
+	public HelloResponse getHello(String name) {
 
 		Hello request = new Hello();
-		request.setName(country);
+		request.setName(name);
 		
 	    ObjectFactory of = new ObjectFactory();
 	    JAXBElement<Hello> reqjaxb = of.createHello(request);
