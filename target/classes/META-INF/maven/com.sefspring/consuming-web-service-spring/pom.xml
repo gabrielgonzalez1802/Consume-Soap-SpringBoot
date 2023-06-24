@@ -40,7 +40,7 @@
             <artifactId>jaxb-runtime</artifactId>
         </dependency>
 	</dependencies>
-
+	
 	<build>
              <plugins>
             <plugin>
@@ -54,21 +54,38 @@
                 <version>0.14.0</version>
                 <executions>
                     <execution>
+						<id>xjc-schema1</id>
                         <goals>
                             <goal>generate</goal>
                         </goals>
+                        <configuration>
+		                    <schemaLanguage>WSDL</schemaLanguage>
+		                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+		                    <generatePackage>com.sefspring.wsdls.sefservice</generatePackage>
+		                    <schemas>
+		                        <schema>
+		                            <url>http://10.161.169.27:8512/SefMainServices/SefService?wsdl</url>
+		                        </schema>
+		                    </schemas>
+		                </configuration>
+                    </execution>
+                    <execution>
+						<id>xjc-schema2</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+		                    <schemaLanguage>WSDL</schemaLanguage>
+		                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+		                    <generatePackage>com.sefspring.wsdls.countryinfo</generatePackage>
+		                    <schemas>
+		                        <schema>
+		                            <url>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</url>
+		                        </schema>
+		                    </schemas>
+		                </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <schemaLanguage>WSDL</schemaLanguage>
-                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-                    <generatePackage>com.sefspring.wsdls</generatePackage>
-                    <schemas>
-                        <schema>
-                            <url>http://10.161.169.27:8512/SefMainServices/SefService?wsdl</url>
-                        </schema>
-                    </schemas>
-                </configuration>
             </plugin>
         </plugins>
     </build>

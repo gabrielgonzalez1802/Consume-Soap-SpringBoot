@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sefspring.services.Service_IHello;
-import com.sefspring.wsdls.HelloResponse;
+import com.sefspring.services.Service_ISefService;
+import com.sefspring.wsdls.sefservice.HelloResponse;
 
 @RestController
 public class SefServiceController {
 
 	@Autowired
-	private Service_IHello serviceHello;
+	private Service_ISefService serviceHello;
 
     @GetMapping("/hello")
     public ResponseEntity<Map<String, String>> getNombre(@RequestParam String nombre) {
     	
-        HelloResponse addResponse = serviceHello.obtenerNombre(nombre);
+        HelloResponse addResponse = serviceHello.getHello(nombre);
         
         Map<String, String> response = new HashMap<>();
         response.put("resultado", addResponse.getReturn());
