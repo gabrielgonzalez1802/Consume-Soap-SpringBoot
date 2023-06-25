@@ -1,7 +1,7 @@
 package com.sefspring.services;
 
-import com.sefspring.wsdls.sefservice.HelloResponse;
+import com.sefspring.dtos.HelloResponseDTO;
 
 public interface Service_ISefService {
-	HelloResponse getHello(String nombre);
+	HelloResponseDTO getHello(String nombre);
 }

@@ -1,7 +1,7 @@
 package com.sefspring.services;
 
-import com.sefspring.wsdls.countryinfo.CountryNameResponse;
+import com.sefspring.dtos.CountryNameResponseDTO;
 
 public interface Service_ICountryInfoService {
-	CountryNameResponse getCountryName(String code);
+	CountryNameResponseDTO getCountryName(String code);
 }
