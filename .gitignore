@@ -54,3 +54,4 @@ cached-antora-playbook.yml
 
 #generated auto resources
 /wsdls/*
+wsdls/*
