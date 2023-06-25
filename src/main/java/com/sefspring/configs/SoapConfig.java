@@ -32,6 +32,13 @@ public class SoapConfig {
         return marshaller;
     }
     
+    /**
+	 * Este servicio es privado se accedera solo con VPN . Se puede comentar a fines
+	 * de pruebas publicas
+	 * 
+	 * @param marshaller 
+	 * @return SefServiceClient
+	 */
     @Bean
     public SefServiceClient getSefServiceClient(Jaxb2Marshaller marshaller){
     	SefServiceClient soapClient = new SefServiceClient();
@@ -42,6 +49,12 @@ public class SoapConfig {
         return soapClient;
     }
     
+    /**
+	 * Este servicio es publico
+	 * 
+	 * @param marshaller 
+	 * @return SefServiceClient
+	 */
     @Bean
     public CountryInfoClient getCountryInfoClient(Jaxb2Marshaller marshaller){
     	CountryInfoClient soapClient = new CountryInfoClient();
